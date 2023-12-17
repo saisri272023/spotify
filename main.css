@@ -1,0 +1,399 @@
+#main{
+    /* border: 2px solid; */
+    height: 580px;
+    background:url("./image/bubbles-mobile.svg"),center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+}
+#sub-main{
+    /* border: 2px solid white; */
+    height: inherit;
+    width: 73%;
+    margin: auto;
+}
+/* #image{
+    width: 267px;
+    height: 445px;
+    position: absolute;
+    top: 40%;
+    left: 200px;
+} */
+#sub-main #main-img{
+    width: 20%;
+    height: 71%;
+    margin-left: 10px;
+}
+#sub-para{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 39%;
+    left: 480px;
+    font-size: 40px;
+    font-weight:bold ;
+    margin-top: 20px;
+    color: #fff;
+}
+#sub-main span svg{
+    height: 34em;
+    margin-top: 100px;
+    z-index: -111;
+}
+#sub-main img{
+    height: 26.8em;
+    width: 16.1em;
+    position: absolute;
+    top: 14em;
+    left: 10.5em;
+    /* z-index: -1; */
+
+}
+#sub-main h1{
+    position: absolute;
+    top: 270px;
+    left: 510px;
+    color: #fff;
+    font-size: 59px;  
+}
+#sub-main button{
+    position: absolute;
+    top: 430px;
+    left: 510px;
+    height: 49px;
+    width: 200px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    font-weight: 500px;
+    cursor: pointer;
+}
+#sub-main button:hover{
+    transform: scale(1.1,1.1);
+}
+#spotify{
+    /* border: 2px solid; */
+    height: 590px;
+     /* z-index: 1; */
+}
+#sub-spotify{
+    /* border: 2px solid yellow; */
+    height: inherit;
+    width: 95%;
+    margin: auto;
+    /* background-color: black; */
+}
+#sub-spotify h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 85px;
+}
+#sub-spotify1{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    margin-top: auto;
+}
+.sub1{
+    /*border: 2px solid;*/
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    /* padding-top: 10px; */
+}
+.sub1 img{
+    padding-top: 60px;
+    width: 142px;
+    height: 180px;
+}
+.sub1 h2{
+    /* text-align: center; */
+    margin-top: 200px;
+    margin-left:30px;
+    position: absolute;
+    top: 800px;
+}
+.sub1 #make{
+    margin-left:60px;
+}
+.sub1 #make1{
+    margin-left:40px;
+}
+
+
+.sub1 p{
+    margin-top: 85px;
+    line-height: 1.5;
+    font-size: 16px;
+    /* bottom: 500px; */
+    /* position: absolute; */
+    /* top: 1000px; */
+    /* gap: 50px; */
+}
+#spotify-free{
+    border: 2px solid;
+    height: 450px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+} 
+#spotify-free h2{
+    text-align: center;
+}
+#question h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 85px;
+}
+#question{
+    /* border: 2px solid; */
+    height: 550px;
+    display: block;
+}
+#question1{
+    /* border: 2px solid; */
+    
+    width: 1100px;
+    margin:auto;
+    padding-left: 50px;
+    padding-top: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#question1:hover{
+    background-color: rgb(227, 226, 226);
+    height:80px;
+}
+#question1 p{
+    font-weight: lighter;
+}
+#question1 li{
+    font-weight: lighter;
+    /* padding-left: 40px; */
+    list-style: none;
+}
+#question2{
+    /* border: 2px solid; */
+    /* height: 70px; */
+    width: 1100px;
+    margin:auto;
+    padding-left: 50px;
+    padding-top: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#question2 li{
+    font-weight: lighter;
+    /* padding-left: 40px; */
+    list-style: none;
+}
+#question3{
+    /* border: 2px solid; */
+    /* height: 70px; */
+    width: 1100px;
+    margin:auto;
+    padding-left: 50px;
+    padding-top: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#question3 li{
+    font-weight: lighter;
+    list-style: none;
+}
+#question2:hover{
+    background-color: rgb(227, 226, 226);
+    height:80px;
+}
+#question3:hover{
+    background-color: rgb(227, 226, 226);
+    height:80px;
+}
+#question4{
+    /* border: 2px solid; */
+    /* height: 70px; */
+    width: 1100px;
+    margin:auto;
+    padding-left: 50px;
+    padding-top: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#question4:hover{
+    background-color: rgb(227, 226, 226);
+    height:80px;
+}
+#question4 p{
+    font-weight: lighter;
+}
+#ready{
+    /* border: 2px solid; */
+    height: 400px;
+    /* background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231)); */
+}
+#ready{
+    /* border: 2px solid; */
+    background:url("./image/bubbles-mobile.svg"),center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    height: 400px;
+    width: 1265px;
+}
+#spotify-ready{
+    display: flex;
+    color: #fff;
+    font-size: 48px;
+}
+#spotify-ready h2{
+   margin-left: 330px;
+   margin-top: 140px;
+}
+#spotify-ready button{
+    height: 45px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 540px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+#spotify-ready button:hover{
+    transform: scale(1.1,1.1);
+}
+footer{
+    border: 2px solid;
+    height: 550px;
+    display: flex;
+    background-color: #000;
+}
+#main-foot{
+    border: 2px solid;
+    height:100px;
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 90px;
+    fill: #fff;
+}
+#main-foot svg:hover{
+    /* color: #1ed760; */
+    cursor: pointer;
+}
+#company{
+    /* border: 2px solid; */
+    /* list-style: none; */
+    width: 150px;
+    line-height: 50px;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 100px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#company li{
+    list-style: none;
+}
+
+#company li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#communities{
+    /* border: 2px solid; */
+    list-style: none;
+    width: 150px;
+    line-height: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#communities li{
+    list-style: none;
+}
+
+#communities li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#usefull-link{
+    /* border: 2px solid; */
+    list-style: none;
+    width: 150px;
+    line-height: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#usefull-link li{
+    list-style: none;
+}
+
+#usefull-link li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#insta{
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    margin-left: 180px;
+    margin-top: 100px;
+    border-radius: 2000%;
+    padding-top: 8px;
+    padding-left: 8px;
+    background-color: #fff;
+}
+#insta:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #1ed760;
+}
+
+#twitter{
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 100px;
+    border-radius: 40px;
+    padding-top: 8px;
+    padding-left: 8px;
+    background-color: #fff;
+}
+#twitter:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #1ed760;
+}
+
+#facebook{
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 100px;
+    border-radius: 40px;
+    padding-top: 8px;
+    padding-left: 8px;
+    background-color: #fff;
+}
+#facebook:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #1ed760;
+}
+
+
+
+

@@ -1,0 +1,45 @@
+@import url(".//main.css");
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box; 
+    font-family: spotify-circular,Helvetica,Arial,sans-serif;;         
+    /* [avoid margin & padding] */
+}
+#nav{
+    border: 2px solid;
+    height: 70px;
+    background-color: #000;
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 94%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sub-nav span svg{
+    height: 2.8em;
+    fill: #fff;
+    cursor: pointer;
+}
+#sub-nav ol{
+    padding: 0%;
+    list-style: none;
+    /* border: 2px solid; */
+    display: inline-flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+#sub-nav ol li{
+    font-weight: 600;
+    font-size: 15px;
+}
+#sub-nav li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
